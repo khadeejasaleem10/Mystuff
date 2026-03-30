@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(#ffffff, rgb(238, 213, 217));
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+    font-family:Times, "Times New Roman", serif;
+    font-size: 120%;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ed8897;
+    color: white;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 3px;
+    background-color: #ea85a3;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    font-weight: bold;
+}
+
+/*did that pink color on purpose because my daugter like it in that box*/
+main {
+    margin: 1rem;
+    background-color: rgb(255, 225, 230);
+}
+
+section {
+    margin-bottom: 1.5rem;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #ed8897;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
