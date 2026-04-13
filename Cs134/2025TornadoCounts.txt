@@ -1,0 +1,51 @@
+State,2025 Tornadoes
+Alabama,111
+Alaska,1
+Arizona,6
+Arkansas,61
+California,8
+Colorado,38
+Connecticut,0
+Delaware,2
+Florida,25
+Georgia,38
+Hawaii,0
+Idaho,2
+Illinois,146
+Indiana,67
+Iowa,36
+Kansas,45
+Kentucky,53
+Louisiana,41
+Maine,0
+Maryland,7
+Massachusetts,4
+Michigan,31
+Minnesota,56
+Mississippi,72
+Missouri,120
+Montana,6
+Nebraska,56
+Nevada,1
+New Hampshire,0
+New Jersey,3
+New Mexico,21
+New York,7
+North Carolina,15
+North Dakota,72
+Ohio,27
+Oklahoma,66
+Oregon,2
+Pennsylvania,23
+Rhode Island,0
+South Carolina,8
+South Dakota,20
+Tennessee,41
+Texas,162
+Utah,7
+Vermont,0
+Virginia,6
+Washington,0
+West Virginia,0
+Wisconsin,38
+Wyoming,8

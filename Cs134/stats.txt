@@ -1,0 +1,10 @@
+Perez,155
+Pasquantino,160
+India,136
+Witt,157
+Garcia,160
+Waters,71
+Isbel,135
+Caglianone,62
+Jensen,20
+Massey,77
