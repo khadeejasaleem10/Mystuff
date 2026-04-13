@@ -1,0 +1,67 @@
+<!-- Allison Hanna forms 04/13/26-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Floating Label Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h3>Contact Form</h3>
+
+
+<form>
+
+<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+
+  <label class="floating">
+    <input type="text" name="fname" required placeholder=" ">
+    <span>First Name</span>
+  </label>
+
+  <label class="floating">
+    <input type="text" name="lname" required placeholder=" ">
+    <span>Last Name</span>
+  </label>
+
+  <label class="floating">
+    <select name="country" required>
+      <option value="" disabled selected></option>
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+    </select>
+    <span>Country</span>
+  </label>
+
+  <label class="floating">
+    <input type="date" name="birthday" required>
+    <span>Birthday</span>
+  </label>
+
+  <fieldset>
+    <legend>Contact Method</legend>
+
+    <label>
+      <input type="radio" name="contact" value="email" required>
+      Email
+    </label>
+
+    <label>
+      <input type="radio" name="contact" value="phone">
+      Phone
+    </label>
+
+        <label>
+      <input type="radio" name="contact" value="text">
+      Text
+    </label>
+
+  </fieldset>
+
+  <button type="submit">Submit</button>
+
+</form>

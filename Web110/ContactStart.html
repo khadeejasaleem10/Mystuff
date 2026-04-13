@@ -1,0 +1,61 @@
+<!-- Allison Hanna Forms-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styleContactStart.css">
+</head>
+
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+     
+ <!-- The first and second most important lines in this page :) -->
+<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="firstname" required>
+
+ <!-- Enter a field for the Last Name (see above for an example)-->
+
+  <label for="country">Country</label>
+  <select id="country" name="country" required>
+    <option value="">--Select--</option>
+    <option value="usa">USA</option>
+    <option value="canada">Canada</option>
+     <!--Add two more countries to this list-->
+     <!--This is a link to a HUGE list of countries to add if you want -- https://gist.github.com/danrovito/977bcb97c9c2dfd3398a-->
+  </select>
+
+  <label for="birthday">Birthday</label>
+  <!--Add a birthday element -->
+
+  <!-- RADIO GROUP -->
+  <fieldset class="radio-group">
+    <legend>Preferred Contact Method</legend>
+
+    <label>
+      <input type="radio" name="contact" value="email" required>
+      Email
+    </label>
+
+    <label>
+      <input type="radio" name="contact" value="phone">
+      A phone call
+    </label>
+
+     <!-- Add a a radio button for using text here-->
+
+  </fieldset>
+
+  <input type="submit" value="Submit">
+  <!-- Add a reset button here-->
+
+</form>
+
+</div>
+
+</body>
+</html>
